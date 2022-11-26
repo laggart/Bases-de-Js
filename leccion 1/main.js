@@ -90,6 +90,14 @@ for (let i = 0; i < pokemonArray.length; i++) {
     }
 }
 
+pokemonArray.forEach((pokemon) => {
+   if (pokemon.tipo === 'fuego') {
+    console.log('¡Es un pokemon de fuego! 🔥');
+   }
+});
+
+
+
 
 
 
