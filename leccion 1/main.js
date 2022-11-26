@@ -96,9 +96,59 @@ pokemonArray.forEach((pokemon) => {
    }
 });
 
+// -----------------------------------------------Ejercicios Función----------------------------
+
+function doble(numero) {
+    return numero * 2
+}
+
+console.log(doble(4));
 
 
+function cuadrado(numero) {
+    return numero * numero
+}
 
+console.log(cuadrado(3));
+
+function areaRectangulo(base, altura) {
+    return base * altura
+}
+
+console.log(areaRectangulo(5, 10))
+
+function parImparComparador(numero) {
+    if (numero % 2 === 0) {
+        return 'par'
+    }
+    return 'impar'
+}
+
+console.log(parImparComparador(4))
+
+function parImparComparadorTernary(numero) {
+    return numero % 2 === 0 ? 'par' : 'impar' 
+}
+
+console.log(parImparComparadorTernary(11))
+
+const personas = [
+
+    { nombre: 'Juan', edad: 18 },
+  
+    { nombre: 'María', edad: 16 },
+  
+    { nombre: 'Pedro', edad: 20 },
+  
+    { nombre: 'Pablo', edad: 15 },
+  
+    { nombre: 'Laura', edad: 19 },
+  
+  ];
+
+  function mayoresDeEdad(personas) {
+    
+  }
 
 
 
