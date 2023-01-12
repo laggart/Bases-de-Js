@@ -267,6 +267,11 @@ function masMayorRed(personas) {
 }
 console.log(masMayorRed(personas))
 
+const str = "hola Mundo!"
+function reverseWords(str) {
+    return str.split("").reverse().join("").split(" ").reverse().join(" ");
+  }
+  console.log(reverseWords(str))
 
 
 
